@@ -5,7 +5,9 @@
         If mshoRandomNumber = 1 Then
             End
         Else
-            System.Diagnostics.Process.Start("C:\Game.exe”)
+            Dim strPath As String = System.IO.Path.GetDirectoryName(
+    System.Reflection.Assembly.GetExecutingAssembly().CodeBase) & "\Game.exe"
+            System.Diagnostics.Process.Start(strPath)
         End If
     End Sub
 
@@ -13,7 +15,9 @@
         If mshoRandomNumber = 2 Then
             End
         Else
-            System.Diagnostics.Process.Start("C:\Game.exe”)
+            Dim strPath As String = System.IO.Path.GetDirectoryName(
+    System.Reflection.Assembly.GetExecutingAssembly().CodeBase) & "\Game.exe"
+            System.Diagnostics.Process.Start(strPath)
         End If
     End Sub
 
@@ -21,7 +25,9 @@
         If mshoRandomNumber = 3 Then
             End
         Else
-            System.Diagnostics.Process.Start("C:\Game.exe”)
+            Dim strPath As String = System.IO.Path.GetDirectoryName(
+    System.Reflection.Assembly.GetExecutingAssembly().CodeBase) & "\Game.exe"
+            System.Diagnostics.Process.Start(strPath)
         End If
     End Sub
 
@@ -29,7 +35,9 @@
         If mshoRandomNumber = 4 Then
             End
         Else
-            System.Diagnostics.Process.Start("C:\Game.exe”)
+            Dim strPath As String = System.IO.Path.GetDirectoryName(
+    System.Reflection.Assembly.GetExecutingAssembly().CodeBase) & "\Game.exe"
+            System.Diagnostics.Process.Start(strPath)
         End If
     End Sub
 
